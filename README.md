@@ -1,4 +1,4 @@
-# Replace Workspace Environment Variable BitBucket 
+# Replace value of Workspace Environment Variable BitBucket 
 In this program, we will replace Workspace variable of BitBucket using a simple Go script.
 
 # Prepare
@@ -24,3 +24,7 @@ export WORKSPACE="company-workspace"
     - `dev_sa.json` <- Fill with your data
     - `uat_sa.json` <- Fill with your data
     - `prod_sa.json` <- Fill with your data
+- Run
+```
+./bbreplaceenvvar
+```
